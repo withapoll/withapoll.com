@@ -6,4 +6,5 @@ In Development ⚠️
 #
 ![project images](https://github.com/withapoll/withapoll.com/assets/59768263/da699c37-bd97-46e3-84e0-5bb571923cd9)
 #
-![Frame 37](https://github.com/withapoll/withapoll.com/assets/59768263/43e06db5-5552-4096-a518-eb4988952e9f)
+![Frame 37](https://github.com/withapoll/withapoll.com/assets/59768263/7d30e7ab-8d49-4a1c-afb2-08744ce71134)
+
