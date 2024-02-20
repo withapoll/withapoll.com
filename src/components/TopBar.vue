@@ -50,10 +50,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 18px;
 }
 .top-bar__links {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .top-bar__logo svg {
