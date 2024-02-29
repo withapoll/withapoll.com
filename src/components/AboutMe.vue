@@ -31,29 +31,38 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  margin-bottom: 144px;
 }
 
-.my_photo,
-.about_me {
-  width: 75%;
-  margin: 0 auto;
+.my_photo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.my_photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 .my_photo img {
   width: 100%;
   height: auto;
+  align-items: center;
 }
 
 .about_me {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 920px;
+  align-items: left;
+  width: 970px;
 }
 
 .about_me p {
   font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .highlight-job {

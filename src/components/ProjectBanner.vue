@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div class="projects-banner">
     <div class="onehome-app">
@@ -14,6 +12,8 @@
   </div>
 </template>
 
+// todo - fix cards componets size
+
 <style scoped>
 .projects-banner {
   margin-top: 54px;
@@ -22,6 +22,7 @@
   width: 100%;
 }
 
+/* Ensure no unexpected margins or padding */
 .onehome-app,
 .Rustore-app,
 .Yandex-DoubleB {
@@ -30,8 +31,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0; /* Add this */
+  padding: 0; /* Add this */
 }
 
+/* Set max-width and max-height for images */
 .onehome-app img,
 .Rustore-app img,
 .Yandex-DoubleB img {

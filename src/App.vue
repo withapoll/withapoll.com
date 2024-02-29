@@ -3,6 +3,7 @@ import TopBar from './components/TopBar.vue'
 import ProjectBanner from './components/ProjectBanner.vue'
 import AboutMe from './components/AboutMe.vue'
 import ProjectsWall from './components/ProjectsWall.vue'
+import ProjectsSection from './components/ProjectsSection.vue'
 </script>
 
 <template>
@@ -10,6 +11,16 @@ import ProjectsWall from './components/ProjectsWall.vue'
   <ProjectBanner />
   <AboutMe />
   <ProjectsWall />
+  <ProjectsSection />
 </template>
 
-<style></style>
+<style>
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+</style>
