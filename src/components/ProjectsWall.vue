@@ -7,13 +7,13 @@
       <img src="@/assets/projectswall/OneHome-widget.png" alt="Onehome widget" />
       <img src="@/assets/projectswall/DoubleB-widget.png" alt="DoubleB widget" />
     </div>
-    <div class="concepts">
-      <img src="@/assets/projectswall/Yandex-Music.png" alt="Yandex Music" />
-      <img src="@/assets/projectswall/studio-logo.png" alt=".Studio" />
-    </div>
     <div class="smart-home">
       <img src="@/assets/projectswall/smart-home.png" alt="Smart Home" />
     </div>
+    <!-- <div class="concepts">
+      <img src="@/assets/projectswall/Yandex-Music.png" alt="Yandex Music" />
+      <img src="@/assets/projectswall/studio-logo.png" alt=".Studio" />
+    </div> -->
   </div>
 </template>
 
@@ -40,7 +40,6 @@
 
 .device-tracker img,
 .apps-components img,
-.concepts img,
 .smart-home img {
   max-width: 100%;
   max-height: 100%;
