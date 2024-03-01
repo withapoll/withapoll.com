@@ -1,24 +1,24 @@
 <template>
   <div class="header">
-    <h1>Projects</h1>
+    <h1>Artciles</h1>
   </div>
-  <div class="projects-section">
-    <div class="project-container">
-      <div class="project1">
-        <h3>DoubleB</h3>
-        <p>A simple CRM app for easy management of your business</p>
+  <div class="articles-section">
+    <div class="article-container">
+      <div class="article1">
+        <h3>OneHome</h3>
+        <p>Smart app for you Smart Home. Design case from Hackathon.</p>
         <h4>Redirect</h4>
       </div>
       <!-- todo: devide cards into multiple - header, content, footer -->
-      <div class="project2">
-        <h3>OneHome</h3>
-        <p>Smart App for your Smart Home. Manage not only your home</p>
+      <div class="article2">
+        <h3>RuStore</h3>
+        <p>What's wrong with the design of the Russian app store developed by VK team?</p>
         <h4>Redirect</h4>
       </div>
       <!-- todo: devide cards into multiple - header, content, footer -->
     </div>
   </div>
-  <p class="more-info">More cool stuff you can find on my Github, Behance and Dprofile</p>
+  <p class="more-info">More cool stuff you can find on my Medium and VC</p>
 </template>
 
 <style scoped>
@@ -31,37 +31,37 @@
     JetBrains Mono,
     serif;
 }
-.projects-section {
+.articles-section {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.project-container {
+.article-container {
   display: flex;
   gap: 150px;
   align-items: center;
 }
 
-.project1 p,
-.project2 p {
+.article1 p,
+.article2 p {
   width: 350px;
   margin-bottom: 140px;
   font-family: Hack, serif;
   font-size: 24px;
 }
 
-.project1 h3,
-.project2 h3 {
+.article1 h3,
+.article2 h3 {
   font-size: 24px;
   font-family:
     JetBrains Mono,
     serif;
 }
 
-.project1 h4,
-.project2 h4 {
+.article1 h4,
+.article2 h4 {
   font-size: 24px;
   font-family: Hack, serif;
 }

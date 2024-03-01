@@ -5,4 +5,4 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap'); /* Import JetBrains Mono font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Hack:wght@400;700&display=swap'); /* Import Hack font from Google Fonts */
+@import url('https//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css'); /* Import Hack font from Google Fonts */
