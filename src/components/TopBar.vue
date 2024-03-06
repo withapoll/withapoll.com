@@ -37,7 +37,6 @@
   justify-content: space-between;
   padding: 1rem 5rem;
   height: 5rem;
-  background: #111111;
 }
 @media screen and (max-width: 768px) {
   .top-bar {

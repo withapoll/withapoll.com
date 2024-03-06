@@ -1,74 +1,76 @@
 <template>
-  <div class="header">
-    <h1>Projects</h1>
-  </div>
-  <div class="projects-section">
-    <div class="project-container">
-      <div class="project1">
+  <div class="projects">
+    <div class="header">
+      <h1>Projects</h1>
+    </div>
+    <div class="project-cards">
+      <div class="project-card">
         <h3>DoubleB</h3>
         <p>A simple CRM app for easy management of your business</p>
         <h4>Redirect</h4>
       </div>
-      <!-- todo: devide cards into multiple - header, content, footer -->
-      <div class="project2">
+      <div class="project-card">
         <h3>OneHome</h3>
         <p>Smart App for your Smart Home. Manage not only your home</p>
         <h4>Redirect</h4>
       </div>
-      <!-- todo: devide cards into multiple - header, content, footer -->
     </div>
+    <p class="more-info">More cool stuff you can find on my Github, Behance, and Dprofile</p>
   </div>
-  <p class="more-info">More cool stuff you can find on my Github, Behance and Dprofile</p>
-  <!-- todo: put section into container -->
 </template>
 
 <style scoped>
+.projects {
+  text-align: left;
+  margin-left: 1%;
+}
+
 .header h1 {
-  margin-left: 9rem;
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #444444;
   font-weight: bold;
-  font-family:
-    JetBrains Mono,
-    serif;
+  font-family: 'JetBrains Mono', sans-serif;
+  margin-left: 1.5rem;
 }
-.projects-section {
+
+.project-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+  width: 90%;
+  margin-left: 1.5rem;
 }
 
-.project-container {
-  display: flex;
-  gap: 16rem;
-  align-items: center;
+.project-card {
+  flex: 1 1 300px;
+  margin: 10px;
+  padding: 20px;
 }
 
-.project1 p,
-.project2 p {
-  width: 22rem;
-  margin-bottom: 8.75rem;
-  font-family: Hack, serif;
+.project-card h3 {
+  font-size: 2rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+.project-card p {
   font-size: 1.5rem;
+  font-family: 'Hack', monospace;
 }
 
-.project1 h3,
-.project2 h3 {
-  font-size: 2.5rem;
-  font-family:
-    JetBrains Mono,
-    serif;
-}
-
-.project1 h4,
-.project2 h4 {
-  font-size: 2.25rem;
-  font-family: Hack, serif;
+.project-card h4 {
+  font-size: 1.5rem;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .more-info {
-  margin-left: 9rem;
   font-size: 1.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .project-cards {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 </style>

@@ -13,7 +13,7 @@ export default defineComponent({
 <style scoped>
 .divider {
   border: none;
-  border-top: 2px dashed #ccc;
-  margin: 20px 0;
+  border-top: 0.125rem dashed #ccc;
+  margin: 1.25rem 0;
 }
 </style>

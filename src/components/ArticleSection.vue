@@ -1,74 +1,76 @@
 <template>
-  <div class="header">
-    <h1>Articles</h1>
-  </div>
-  <div class="articles-section">
-    <div class="article-container">
-      <div class="article1">
+  <div class="articles">
+    <div class="header">
+      <h1>Articles</h1>
+    </div>
+    <div class="article-cards">
+      <div class="article-card">
         <h3>OneHome</h3>
-        <p>Smart app for you Smart Home. Design case from Hackathon.</p>
+        <p>Smart app for your Smart Home. Design case from Hackathon.</p>
         <h4>Redirect</h4>
       </div>
-      <!-- todo: devide cards into multiple - header, content, footer -->
-      <div class="article2">
+      <div class="article-card">
         <h3>RuStore</h3>
         <p>What's wrong with the design of the Russian app store developed by VK team?</p>
         <h4>Redirect</h4>
       </div>
-      <!-- todo: devide cards into multiple - header, content, footer -->
     </div>
+    <p class="more-info">More cool stuff you can find on my Medium and VC</p>
   </div>
-  <p class="more-info">More cool stuff you can find on my Medium and VC</p>
-  <!-- todo: put section into container -->
 </template>
 
 <style scoped>
+.articles {
+  text-align: left;
+  margin-left: 1%;
+}
+
 .header h1 {
-  margin-left: 9rem;
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: #444444;
   font-weight: bold;
-  font-family:
-    JetBrains Mono,
-    serif;
+  font-family: 'JetBrains Mono', sans-serif;
+  margin-left: 1.5rem;
 }
-.articles-section {
+
+.article-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+  width: 90%;
+  margin-left: 1.5rem;
 }
 
-.article-container {
-  display: flex;
-  gap: 16rem;
-  align-items: center;
+.article-card {
+  flex: 1 1 300px;
+  margin: 10px;
+  padding: 20px;
 }
 
-.article1 p,
-.article2 p {
-  width: 22rem;
-  margin-bottom: 8.75rem;
-  font-family: Hack, serif;
+.article-card h3 {
+  font-size: 2rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+.article-card p {
   font-size: 1.5rem;
+  font-family: 'Hack', monospace;
 }
 
-.article1 h3,
-.article2 h3 {
-  font-size: 2.5rem;
-  font-family:
-    JetBrains Mono,
-    serif;
-}
-
-.article1 h4,
-.article2 h4 {
-  font-size: 2.25rem;
-  font-family: Hack, serif;
+.article-card h4 {
+  font-size: 1.5rem;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .more-info {
-  margin-left: 9rem;
   font-size: 1.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .project-cards {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 </style>

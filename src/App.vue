@@ -7,6 +7,7 @@ import ProjectsSection from './components/ProjectsSection.vue'
 import ArticleSection from './components/ArticleSection.vue'
 import DashLine from './components/DashLine.vue'
 import MyContacts from './components/MyContacts.vue'
+import BottomBar from './components/BottomBar.vue'
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import MyContacts from './components/MyContacts.vue'
   <ArticleSection />
   <DashLine />
   <MyContacts />
+  <BottomBar />
 </template>
 
 <style>
