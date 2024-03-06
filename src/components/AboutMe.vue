@@ -31,7 +31,7 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  margin-bottom: 144px;
+  margin-bottom: 9rem;
 }
 
 .my_photo {
@@ -40,29 +40,17 @@
   width: 100%;
 }
 
-.my_photo img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.my_photo img {
-  width: 100%;
-  height: auto;
-  align-items: center;
-}
-
 .about_me {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  width: 970px;
+  width: 80%;
 }
 
 .about_me p {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .highlight-job {
@@ -84,8 +72,8 @@
 }
 
 .my_photo img {
-  width: 150px;
-  height: 150px;
+  width: 15%;
+  height: auto;
   border-radius: 50%;
 }
 </style>

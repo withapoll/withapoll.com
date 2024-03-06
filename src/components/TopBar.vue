@@ -35,8 +35,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 17px 86px;
-  height: 82px;
+  padding: 1rem 5rem;
+  height: 5rem;
   background: #111111;
 }
 @media screen and (max-width: 768px) {
@@ -50,14 +50,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 1.5rem;
+}
+.city {
+  margin-bottom: 0.5rem;
+}
+.data-time {
+  margin-top: 0.2rem;
 }
 .top-bar__links {
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 
 .top-bar__logo svg {
-  width: 82px;
+  width: 80%;
   height: auto;
 }
 </style>

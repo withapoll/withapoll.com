@@ -5,6 +5,8 @@ import AboutMe from './components/AboutMe.vue'
 import ProjectsWall from './components/ProjectsWall.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
 import ArticleSection from './components/ArticleSection.vue'
+import DashLine from './components/DashLine.vue'
+import MyContacts from './components/MyContacts.vue'
 </script>
 
 <template>
@@ -14,6 +16,8 @@ import ArticleSection from './components/ArticleSection.vue'
   <ProjectsWall />
   <ProjectsSection />
   <ArticleSection />
+  <DashLine />
+  <MyContacts />
 </template>
 
 <style>

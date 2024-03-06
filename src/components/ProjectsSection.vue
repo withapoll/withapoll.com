@@ -19,12 +19,13 @@
     </div>
   </div>
   <p class="more-info">More cool stuff you can find on my Github, Behance and Dprofile</p>
+  <!-- todo: put section into container -->
 </template>
 
 <style scoped>
 .header h1 {
-  margin-left: 200px;
-  font-size: 64px;
+  margin-left: 9rem;
+  font-size: 5rem;
   color: #444444;
   font-weight: bold;
   font-family:
@@ -40,21 +41,21 @@
 
 .project-container {
   display: flex;
-  gap: 150px;
+  gap: 16rem;
   align-items: center;
 }
 
 .project1 p,
 .project2 p {
-  width: 350px;
-  margin-bottom: 140px;
+  width: 22rem;
+  margin-bottom: 8.75rem;
   font-family: Hack, serif;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .project1 h3,
 .project2 h3 {
-  font-size: 24px;
+  font-size: 2.5rem;
   font-family:
     JetBrains Mono,
     serif;
@@ -62,7 +63,12 @@
 
 .project1 h4,
 .project2 h4 {
-  font-size: 24px;
+  font-size: 2.25rem;
   font-family: Hack, serif;
+}
+
+.more-info {
+  margin-left: 9rem;
+  font-size: 1.5rem;
 }
 </style>
