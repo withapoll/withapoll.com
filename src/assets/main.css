@@ -4,5 +4,8 @@ body {
   font-family: 'JetBrains Mono', 'Hack', monospace;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap'); /* Import JetBrains Mono font from Google Fonts */
-@import url('https//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css'); /* Import Hack font from Google Fonts */
+#app {
+  font-family: 'JetBrains Mono', 'Hack', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -33,7 +33,7 @@
   flex: 1;
   height: 100%;
   display: flex;
-  flex-direction: column; /* Stack the children vertically */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -44,5 +44,11 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .projects-wall {
+    flex-direction: column;
+  }
 }
 </style>

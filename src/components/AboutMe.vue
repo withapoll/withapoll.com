@@ -12,14 +12,17 @@
       </p>
       <p>I’m currently studying FullStack Development at Moscow IT college.</p>
       <p>
-        I’ve worked as a <span class="highlight-underline">UX UI Designer</span> at neiroseti.ai
-        which is a resident of Skolkovo in Russia. Currently preparing for internships in
+        I’ve worked as a
+        <a href="https://neiroseti.ai/" class="highlight-underline">UX UI Designer</a> at JSC Neural
+        Networks which is a resident of Skolkovo in Russia. Currently preparing for internships at
         <span class="highlight-yandex">Yandex</span> and
         <span class="highlight-robot">red_mad_robot</span> as an Android Developer.
       </p>
       <p>
-        You can email me at <span class="underline">withapoll@outlook.com</span>, get my
-        <span class="underline">CV</span> or add me on <span class="underline">LinkedIn</span>
+        You can email me at
+        <a href="mailto:withapoll@outlook.com" class="underline">withapoll@outlook.com</a>, get my
+        <a href="link_to_cv" class="underline">CV</a> or add me on
+        <a href="link_to_linkedin" class="underline">LinkedIn</a>
       </p>
     </div>
   </div>
@@ -69,6 +72,7 @@
 
 .underline {
   text-decoration: underline;
+  color: inherit;
 }
 
 .my_photo img {

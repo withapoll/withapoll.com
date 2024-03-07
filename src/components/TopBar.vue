@@ -19,15 +19,39 @@
       <p class="city">moscow</p>
       <p class="data-time">friday, 18:00</p>
     </div>
-    <div class="top-bar__links">
-      <p>work</p>
-      <p>contacts</p>
+    <div class="top-bar__links" @click="toggleMenu">
+      <p v-if="!isMobile">work</p>
+      <p v-if="!isMobile">contacts</p>
+      <div
+        v-if="isMobile"
+        class="menu-icon"
+        :class="{ open: isMenuOpen }"
+        @click="isMenuOpen = !isMenuOpen"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 // add time method here
+
+import { ref, onMounted } from 'vue'
+
+const isMobile = ref(false)
+const isMenuOpen = ref(false)
+
+const toggleMenu = () => {
+  // Add logic to toggle the menu here
+}
+
+onMounted(() => {
+  const isMobileDevice = window.matchMedia('(max-width: 768px)').matches
+  isMobile.value = isMobileDevice
+})
 </script>
 
 <style scoped>
@@ -64,5 +88,23 @@
 .top-bar__logo svg {
   width: 80%;
   height: auto;
+}
+
+.top-bar__links p {
+  display: block;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    /* Add styles for the menu icon */
+  }
+  .top-bar__links p {
+    display: none;
+  }
 }
 </style>

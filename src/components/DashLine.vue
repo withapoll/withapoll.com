@@ -15,5 +15,7 @@ export default defineComponent({
   border: none;
   border-top: 0.125rem dashed #ccc;
   margin: 1.25rem 0;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
 }
 </style>

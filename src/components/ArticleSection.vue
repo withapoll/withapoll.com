@@ -5,7 +5,9 @@
     </div>
     <div class="article-cards">
       <div class="article-card">
-        <h3>OneHome</h3>
+        <div class="card-header">
+          <h3>OneHome</h3>
+        </div>
         <p>Smart app for your Smart Home. Design case from Hackathon.</p>
         <h4>Redirect</h4>
       </div>

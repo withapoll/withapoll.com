@@ -22,7 +22,6 @@
   width: 100%;
 }
 
-/* Ensure no unexpected margins or padding */
 .onehome-app,
 .Rustore-app,
 .Yandex-DoubleB {
@@ -31,16 +30,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0; /* Add this */
-  padding: 0; /* Add this */
+  margin: 0;
+  padding: 0;
 }
 
-/* Set max-width and max-height for images */
 .onehome-app img,
 .Rustore-app img,
 .Yandex-DoubleB img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+@media (max-width: 768px) {
+  .projects-banner {
+    flex-direction: column;
+  }
 }
 </style>

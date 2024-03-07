@@ -25,7 +25,8 @@
   display: flex;
   justify-content: space-between;
   width: 50%;
-  margin-left: 9rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
 }
 
 .my-contacts a {
@@ -41,5 +42,13 @@
 .my-contacts p {
   font-size: 1rem;
   font-family: 'Hack', monospace;
+}
+
+@media screen and (max-width: 768px) {
+  .my-contacts {
+    flex-direction: column;
+
+    width: 65%;
+  }
 }
 </style>
