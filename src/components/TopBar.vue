@@ -16,7 +16,7 @@
       </svg>
     </div>
     <div class="my_location">
-      <p class="city">Moscow</p>
+      <p class="city">moscow</p>
       <p class="data-time">{{ currentTime }}</p>
     </div>
     <div class="top-bar__links" @click="toggleMenu">

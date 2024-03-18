@@ -104,9 +104,10 @@
       </div>
     </div>
     <p class="more-info">
-      More cool stuff you can find on my <a href="https://github.com/withapoll">Github</a>,
-      <a href="https://behance.net">Behance</a>, and
+      More cool stuff you can find on my <a href="https://github.com/withapoll">Github</a> and
       <a href="https://dprofile.ru/apoll">Dprofile</a>
+      <!-- ,
+      <a href="https://behance.net">Behance</a>, -->
     </p>
   </div>
 </template>

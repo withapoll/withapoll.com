@@ -108,7 +108,7 @@
       </div>
     </div>
     <p class="more-info">
-      More cool stuff you can find on my <a href="https://medium.com/withapoll">Medium</a> and
+      More cool stuff you can find on my <a href="https://medium.com/@withapoll">Medium</a> and
       <a href="https://vc.ru/u/943980-withapoll">VC</a>
     </p>
   </div>

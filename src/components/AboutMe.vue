@@ -20,10 +20,12 @@
       </p>
       <p>
         You can email me at
-        <a href="mailto:withapoll@outlook.com" class="underline">withapoll@outlook.com</a>, get my
-        <a href="https://1drv.ms/b/s!AsnZW2NxT7K3kx5oVTfywUtODtyb" class="underline">CV</a> or add
+        <a href="mailto:withapoll@outlook.com" class="underline">withapoll@outlook.com</a> and get
+        my
+        <a href="https://1drv.ms/b/s!AsnZW2NxT7K3kx5oVTfywUtODtyb" class="underline">CV</a>
+        <!-- or add
         me on
-        <a href="link_to_linkedin" class="underline">LinkedIn</a>
+        <a href="link_to_linkedin" class="underline">LinkedIn</a> -->
       </p>
     </div>
   </div>
