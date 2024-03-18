@@ -35,7 +35,8 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  margin-bottom: 9rem;
+  margin-bottom: 7rem;
+  margin-top: 7rem;
 }
 
 .my_photo {
@@ -80,5 +81,15 @@
   width: 15%;
   height: auto;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .my_photo img {
+    width: 35%;
+  }
+
+  .about_me p {
+    font-size: 1.5rem;
+  }
 }
 </style>

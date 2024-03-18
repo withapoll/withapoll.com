@@ -58,4 +58,35 @@ onMounted(() => {
   font-family: 'Hack', monospace;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer-logo {
+    margin-top: 1rem;
+  }
+  .footer-text .credits .footer-text {
+    font-size: 1.5rem;
+  }
+  .credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .credits p:last-child {
+    margin-top: 0.5rem;
+  }
+  .credits p:first-child {
+    margin-bottom: 0.5rem;
+  }
+  .footer-logo svg {
+    width: 65%;
+    margin-left: 1rem;
+  }
+  .footer-text .credits .footer-text {
+    font-size: 1.5rem;
+  }
+}
 </style>

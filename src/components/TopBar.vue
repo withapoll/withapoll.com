@@ -16,41 +16,61 @@
       </svg>
     </div>
     <div class="my_location">
-      <p class="city">moscow</p>
-      <p class="data-time">friday, 18:00</p>
+      <p class="city">Moscow</p>
+      <p class="data-time">{{ currentTime }}</p>
     </div>
     <div class="top-bar__links" @click="toggleMenu">
       <p v-if="!isMobile">work</p>
       <p v-if="!isMobile">contacts</p>
-      <div
-        v-if="isMobile"
-        class="menu-icon"
-        :class="{ open: isMenuOpen }"
-        @click="isMenuOpen = !isMenuOpen"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
+      <div v-if="isMobile" class="menu-icon" :class="{ open: isMenuOpen }" @click="toggleMenu">
+        <svg
+          width="35"
+          height="35"
+          viewBox="0 0 35 35"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4.375 26.25V23.3333H30.625V26.25H4.375ZM4.375 18.9583V16.0417H30.625V18.9583H4.375ZM4.375 11.6667V8.75H30.625V11.6667H4.375Z"
+            fill="white"
+          />
+        </svg>
       </div>
+    </div>
+    <div class="side-menu" v-show="isMenuOpen">
+      <p>Work</p>
+      <p>Contacts</p>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-// add time method here
-
 import { ref, onMounted } from 'vue'
 
 const isMobile = ref(false)
 const isMenuOpen = ref(false)
+const currentTime = ref('')
 
 const toggleMenu = () => {
-  // Add logic to toggle the menu here
+  isMenuOpen.value = !isMenuOpen.value
+}
+
+const updateTime = () => {
+  const date = new Date()
+  const options: Intl.DateTimeFormatOptions = {
+    timeZone: 'Europe/Moscow',
+    hour: '2-digit',
+    minute: '2-digit'
+  }
+  const formatter = new Intl.DateTimeFormat('en-GB', options)
+  currentTime.value = formatter.format(date)
 }
 
 onMounted(() => {
   const isMobileDevice = window.matchMedia('(max-width: 768px)').matches
   isMobile.value = isMobileDevice
+  updateTime()
+  setInterval(updateTime, 1000)
 })
 </script>
 
@@ -61,11 +81,6 @@ onMounted(() => {
   justify-content: space-between;
   padding: 1rem 5rem;
   height: 5rem;
-}
-@media screen and (max-width: 768px) {
-  .top-bar {
-    width: 50%;
-  }
 }
 
 .my_location {
@@ -95,16 +110,36 @@ onMounted(() => {
 }
 
 .menu-icon {
-  display: none;
+  cursor: pointer;
+  padding: 1rem;
 }
 
-@media screen and (max-width: 768px) {
+.side-menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #fff;
+  padding: 1rem;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.side-menu p {
+  margin-bottom: 1rem;
+}
+
+.menu-icon.open + .side-menu {
+  transform: translateX(0);
+}
+
+@media screen and (min-width: 768px) {
   .menu-icon {
-    display: block;
-    /* Add styles for the menu icon */
+    display: none;
   }
   .top-bar__links p {
-    display: none;
+    display: block;
   }
 }
 </style>

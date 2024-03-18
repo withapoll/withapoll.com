@@ -115,10 +115,7 @@
 .projects {
   text-align: left;
   margin-left: 1%;
-}
-
-.header {
-  margin-top: 0.1rem;
+  margin-top: 7rem;
 }
 
 .header h1 {
@@ -191,9 +188,19 @@ h4 {
 }
 
 @media (max-width: 768px) {
+  .header h1 {
+    font-size: 3.5rem;
+  }
+  .project-card {
+    flex: 1 1 300px;
+    padding: 1rem;
+  }
   .project-cards {
     flex-direction: column;
     align-items: center;
+  }
+  .more-info {
+    font-size: 1.2rem;
   }
 }
 </style>

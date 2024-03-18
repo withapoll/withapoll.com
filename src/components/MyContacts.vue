@@ -26,7 +26,6 @@
   justify-content: space-between;
   width: 50%;
   margin-left: 5rem;
-  margin-bottom: 5rem;
 }
 
 .my-contacts a {
@@ -46,9 +45,17 @@
 
 @media screen and (max-width: 768px) {
   .my-contacts {
-    flex-direction: column;
-
-    width: 65%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .my-contacts h3 {
+    font-size: 1.5rem;
+  }
+  .my-contacts p {
+    font-size: 1.2rem;
   }
 }
 </style>

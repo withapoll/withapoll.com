@@ -12,11 +12,9 @@
   </div>
 </template>
 
-// todo - fix cards componets size
-
 <style scoped>
 .projects-banner {
-  margin-top: 54px;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -44,6 +42,18 @@
 @media (max-width: 768px) {
   .projects-banner {
     flex-direction: column;
+  }
+  .onehome-app,
+  .Rustore-app,
+  .Yandex-DoubleB {
+    width: 100%;
+  }
+  .onehome-app img,
+  .Rustore-app img,
+  .Yandex-DoubleB img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
   }
 }
 </style>

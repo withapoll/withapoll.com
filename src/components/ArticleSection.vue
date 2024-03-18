@@ -42,8 +42,8 @@
             </svg>
           </div>
           <svg
-            width="40"
-            height="40"
+            width="75"
+            height="75"
             viewBox="0 0 40 40"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -93,8 +93,8 @@
             </svg>
           </div>
           <svg
-            width="40"
-            height="40"
+            width="75"
+            height="75"
             viewBox="0 0 40 40"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -118,6 +118,7 @@
 .articles {
   text-align: left;
   margin-left: 1%;
+  margin-top: 7rem;
 }
 
 .header h1 {
@@ -205,9 +206,19 @@ h4 {
 }
 
 @media (max-width: 768px) {
-  .project-cards {
+  .article-cards {
     flex-direction: column;
     align-items: center;
+  }
+  .header h1 {
+    font-size: 3.5rem;
+  }
+  .article-card {
+    flex: 1 1 300px;
+    padding: 1rem;
+  }
+  .more-info {
+    font-size: 1.2rem;
   }
 }
 </style>
