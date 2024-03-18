@@ -101,7 +101,7 @@ onMounted(() => {
 }
 
 .top-bar__logo svg {
-  width: 80%;
+  width: 90%;
   height: auto;
 }
 
