@@ -2,15 +2,15 @@
   <div class="my-contacts">
     <div class="content">
       <h3>Content</h3>
-      <p><a href="https://vc.ru/withapoll">VC</a></p>
+      <p><a href="https://vc.ru/u/943980-withapoll">VC</a></p>
       <!-- <p><a href="link-to-behance-profile">Behance</a></p> -->
-      <!-- <p><a href="link-to-medium-profile">Medium</a></p> -->
-      <p><a href="https://dprofile.ru/withapoll">Dprofile</a></p>
-      <p><a href="https://youtube.com/withapoll">YouTube</a></p>
+      <p><a href="https://medium.com/@withapoll">Medium</a></p>
+      <p><a href="https://dprofile.ru/apoll">Dprofile</a></p>
+      <p><a href="https://www.youtube.com/@withapoll">YouTube</a></p>
     </div>
     <div class="social">
       <h3>Social</h3>
-      <!-- <p><a href="link-to-twitter-profile">Twitter</a></p> -->
+      <p><a href="https://twitter.com/withapoll">Twitter</a></p>
       <p><a href="https://github.com/withapoll">Github</a></p>
       <!-- <p><a href="link-to-linkedin-profile">LinkedIn</a></p> -->
       <p><a href="https://instagram.com/withapoll">Instagram</a></p>

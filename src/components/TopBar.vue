@@ -141,5 +141,12 @@ onMounted(() => {
   .top-bar__links p {
     display: block;
   }
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    height: 5rem;
+  }
 }
 </style>

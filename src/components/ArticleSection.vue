@@ -220,5 +220,9 @@ h4 {
   .more-info {
     font-size: 1.2rem;
   }
+  .card-footer svg {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
 }
 </style>
