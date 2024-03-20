@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TopBar from './components/TopBar.vue'
+import ProgressBar from './components/ProgressBar.vue'
 import ProjectBanner from './components/ProjectBanner.vue'
 import AboutMe from './components/AboutMe.vue'
 import ProjectsWall from './components/ProjectsWall.vue'
@@ -11,7 +11,7 @@ import BottomBar from './components/BottomBar.vue'
 </script>
 
 <template>
-  <TopBar />
+  <ProgressBar />
   <ProjectBanner />
   <AboutMe />
   <ProjectsWall />

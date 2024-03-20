@@ -37,7 +37,6 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  margin-bottom: 7rem;
   margin-top: 6rem;
 }
 

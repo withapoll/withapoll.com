@@ -26,6 +26,7 @@
   justify-content: space-between;
   width: 50%;
   margin-left: 5rem;
+  margin-top: 4rem;
 }
 
 .my-contacts a {

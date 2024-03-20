@@ -116,7 +116,7 @@
 .projects {
   text-align: left;
   margin-left: 1%;
-  margin-top: 7rem;
+  margin-top: 6rem;
 }
 
 .header h1 {
