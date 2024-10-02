@@ -3,7 +3,11 @@ import "./profile.css";
 function Profile() {
   return (
     <div className="profile">
-      <img className="profile-image" src="/me-2.jpg" alt="Привет 👀" />
+      <img
+        className="profile-image"
+        src={`${import.meta.env.BASE_URL}me-2.jpg`}
+        alt="Привет 👀"
+      />
       <div className="profile-name">Эндрю</div>
       <div className="profile-description">
         Дизайнер Интерфейсов && Дэвелопер и просто tech guy,{" "}
