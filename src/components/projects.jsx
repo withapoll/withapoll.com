@@ -20,7 +20,10 @@ function Projects() {
             <button
               className="button"
               onClick={() => {
-                window.open("/AboutNetworky.pdf", "_blank");
+                window.open(
+                  "https://drive.google.com/file/d/1x2Vsnl0Tr0YxyqbtAxOeox6C7ipKG94T/view?usp=sharing",
+                  "_blank"
+                );
               }}
             >
               Взглянуть

@@ -6,7 +6,10 @@ function Header() {
       <a
         className="link"
         onClick={() => {
-          window.open("/CV.pdf", "_blank");
+          window.open(
+            "https://drive.google.com/file/d/1MBuuYgc9WubFt_rIkzzhR9kZyAIwhgfq/view?usp=sharing",
+            "_blank"
+          );
         }}
       >
         резюме
