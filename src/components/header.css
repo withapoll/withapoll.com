@@ -7,13 +7,13 @@
 }
 
 .nickname,
-.resume-link {
+.link {
   font-size: 16px;
   font-weight: bold;
   margin: 15px;
 }
 
-.resume-link {
+.link {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   color: inherit;

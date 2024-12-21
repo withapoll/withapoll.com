@@ -6,27 +6,34 @@ function Projects() {
       <div className="title">Проджекты</div>
       <div className="project-list">
         <div className="project">
-          <img className="image" src="/inLink.png" alt="InLink" />
+          <img
+            className="image"
+            src={`${import.meta.env.BASE_URL}networky.png`}
+            alt="InLink"
+          />
           <div className="text">
             <div className="project-description">
-              <span style={{ fontWeight: "bold" }}>InLink. </span>
-              Иногда такое бывает, что забываешь куда дел свой девайс 📱 А я
-              точно оставил его в дома 🤔 Я решил создать приложение, которое
-              позволит отслеживать устройства, а также скоро не только
-              устройства, а например ключи от машины 🔑
+              <span style={{ fontWeight: "bold" }}>Networky. </span>
+              Приложение с удобной лентой митапов && удобным нетворингом 👻
             </div>
-            <a
-              href="https://example.com/inlink"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", width: "100%" }}
+
+            <button
+              className="button"
+              onClick={() => {
+                window.open("./public/AboutNetworky.pdf", "_blank");
+              }}
             >
-              <button className="button">Ссылка скоро появится</button>
-            </a>
+              Взглянуть
+            </button>
+            {/* <button className="button-noactive">Ссылка скоро появится</button> */}
           </div>
         </div>
         <div className="project">
-          <img className="image" src="/OneHome.png" alt="OneHome" />
+          <img
+            className="image"
+            src={`${import.meta.env.BASE_URL}OneHome.png`}
+            alt="OneHome"
+          />
           <div className="text">
             <div className="project-description">
               <span style={{ fontWeight: "bold" }}>OneHome. </span>
@@ -41,12 +48,16 @@ function Projects() {
               rel="noopener noreferrer"
               style={{ textDecoration: "none", width: "100%" }}
             >
-              <button className="button">Подробнее</button>
+              <button className="button">Прочитать статью</button>
             </a>
           </div>
         </div>
         <div className="project">
-          <img className="image" src="/ITPark.png" alt="IT-Park" />
+          <img
+            className="image"
+            src={`${import.meta.env.BASE_URL}ITPark.png`}
+            alt="IT-Park"
+          />
           <div className="text">
             <div className="project-description">
               <span style={{ fontWeight: "bold" }}>IT-Park. </span>
@@ -61,12 +72,16 @@ function Projects() {
               rel="noopener noreferrer"
               style={{ textDecoration: "none", width: "100%" }}
             >
-              <button className="button">Подробнее</button>
+              <button className="button">Взглянуть</button>
             </a>
           </div>
         </div>
         <div className="project">
-          <img className="image" src="/RuStore.png" alt="RuStore Redesign" />
+          <img
+            className="image"
+            src={`${import.meta.env.BASE_URL}RuStore.png`}
+            alt="RuStore Redesign"
+          />
           <div className="text">
             <div className="project-description">
               <span style={{ fontWeight: "bold" }}>Редизайн RuStore. </span>
@@ -81,12 +96,16 @@ function Projects() {
               rel="noopener noreferrer"
               style={{ textDecoration: "none", width: "100%" }}
             >
-              <button className="button">Подробнее</button>
+              <button className="button">Прочитать статью</button>
             </a>
           </div>
         </div>
         <div className="project">
-          <img className="image" src="/DoubleB.png" alt="DoubleB" />
+          <img
+            className="image"
+            src={`${import.meta.env.BASE_URL}DoubleB.png`}
+            alt="DoubleB"
+          />
           <div className="text">
             <div className="project-description">
               <span style={{ fontWeight: "bold" }}>DoubleB. </span>
@@ -101,7 +120,7 @@ function Projects() {
               rel="noopener noreferrer"
               style={{ textDecoration: "none", width: "100%" }}
             >
-              <button className="button">Подробнее</button>
+              <button className="button">Взглянуть</button>
             </a>
           </div>
         </div>
