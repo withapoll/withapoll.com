@@ -6,7 +6,7 @@ function Header() {
       <a
         className="link"
         onClick={() => {
-          window.open("./public/CV.pdf", "_blank");
+          window.open("./src/assets/docs/CV.pdf", "_blank");
         }}
       >
         резюме

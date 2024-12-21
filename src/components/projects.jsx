@@ -20,7 +20,7 @@ function Projects() {
             <button
               className="button"
               onClick={() => {
-                window.open("./public/AboutNetworky.pdf", "_blank");
+                window.open("./src/assets/docs/AboutNetworky.pdf", "_blank");
               }}
             >
               Взглянуть
